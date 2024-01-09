@@ -1,0 +1,18 @@
+
+p {
+    background-color: pink;
+    color: black;
+    font-size: 30px
+}
+strong {
+    color: brown;
+}
+
+strong:hover {
+    background-color: yellow;
+}
+
+.names {
+    font-family: 'Sans Serif';
+    font-size: 50px;
+}

@@ -1,0 +1,40 @@
+
+#teamdisplay {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;   
+}
+
+@media (max-width:340px) {
+    #teamdisplay {
+        color: grey;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+.teamMember {
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: grey; 
+    color: white; 
+}
+
+.teamMember img {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.media-container {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    column-width: 90px;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid blue;
+}
